@@ -1,0 +1,41 @@
+{
+  "name": "@dev-packages/logger",
+  "version": "1.0.0",
+  "description": "Use to log information",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "test": "jest --silent --coverage",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepesh316/devlogger.git"
+  },
+  "keywords": [
+    "logger",
+    "pino"
+  ],
+  "author": "Deepesh Kumar R <deepeshkumar6080@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepesh316/devlogger/issues"
+  },
+  "homepage": "https://github.com/Deepesh316/devlogger#readme",
+  "dependencies": {
+    "@types/pino": "^5.15.1",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "pino": "^5.15.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/lodash": "^4.14.149",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
