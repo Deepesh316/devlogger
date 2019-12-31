@@ -1,8 +1,8 @@
 {
-  "name": "@dev-packages/logger",
-  "version": "1.0.0",
+  "name": "@deepesh316/logger",
+  "version": "1.0.5",
   "description": "Use to log information",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon index.ts",
     "test": "jest --silent --coverage",
